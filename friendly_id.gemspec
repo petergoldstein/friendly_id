@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'coveralls'
   s.add_development_dependency 'railties', '~> 4.0'
-  s.add_development_dependency 'minitest', '~> 5.3.5'
+  s.add_development_dependency 'minitest', '>= 4.2'
   s.add_development_dependency 'mocha', '~> 1.1.0'
   s.add_development_dependency 'yard'
   s.add_development_dependency 'i18n'
