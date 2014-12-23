@@ -2,12 +2,12 @@ source 'https://rubygems.org'
 
 gemspec path: '../'
 
-gem 'rails', '~> 4.2.0.rc3' do
+gem 'rails', '~> 4.2.0' do
   gem 'activerecord'
   gem 'railties'
 end
 
-gem 'i18n', '0.7.0.beta1'
+gem 'i18n', '0.7.0'
 
 # Database Configuration
 group :development, :test do
